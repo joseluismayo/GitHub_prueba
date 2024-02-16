@@ -1,7 +1,10 @@
+import com.sun.source.tree.EmptyStatementTree;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("Hola de nuevo mundo");
+        Estática estatica1 = new Estática();
+        estatica1.incrementar();
+
+
     }
 }
